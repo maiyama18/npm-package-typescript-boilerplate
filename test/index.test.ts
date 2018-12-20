@@ -6,6 +6,6 @@ describe('hello()', () => {
   });
 
   it('should say hello to non-empty target', () => {
-    expect(hello('npm')).toBe('hello npm!');
+    expect(hello('package')).toBe('hello package!');
   });
 });
